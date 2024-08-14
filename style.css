@@ -116,4 +116,7 @@ ul.nav li a svg {
     font-size: 1.4rem;
   }
  
+  .col-md-3 {
+    margin-left: 50px; /* Adjust margin for smaller screens if needed */
+  }
 }
