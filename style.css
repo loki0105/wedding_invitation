@@ -1,0 +1,119 @@
+ .img1{
+  height: 80vh;
+    background-image: url('img1.jpg');
+    background-size:cover; /* Cover the entire div with the image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+ background-size:contain;
+
+
+
+}
+.tt1
+{
+font-family: 'Cormorant Garamond', serif;
+font-weight: 300;
+color: #d46b5a;
+font-size: 1.5rem;
+}
+
+
+.elm
+{
+    font-size: 2rem;
+   
+}
+.tit{
+  font-size: 6rem;
+} 
+body
+{
+    background-color: rgb(222,234,229);
+    opacity: 0.8;
+}
+.btn1
+{
+    color: white;
+    font-size: 1.5rem;
+							padding-left: 2rem;
+							padding-right: 2rem;
+							border: none;
+							background-color: #d46b5a;
+}
+
+.tt2
+{
+background-color: rgb(255,255,255);
+opacity: 1;
+}
+
+.tt3
+{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: black;
+    opacity: 0.8;
+}
+
+.wn
+{
+    font-size: 1.6rem;
+}
+
+.tt5
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tt6
+{
+    background-color: rgb(254,236,224);
+}
+.ftr
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tt8
+{
+    font-size: 4rem;
+}
+
+ul.nav li a, 
+ul.nav li a i, 
+ul.nav li a svg {
+  color: white; /* Change the color of the icons */
+  fill: white;  /* Change the color of the SVGs */
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+
+  .tit {
+    font-size: 3rem;
+   
+  }
+  .elm
+  {
+     font-size: 1.5rem;
+  }
+  .btn1
+  {
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+        padding-right: 0.5rem;
+  }
+  .tt1{
+    font-size: 1.2rem;
+  }
+  .tt8{
+  font-size:  2.5rem;
+  }
+  .wn{
+    font-size: 1.4rem;
+  }
+ 
+}
