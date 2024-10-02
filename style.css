@@ -15,17 +15,22 @@ font-family: 'Cormorant Garamond', serif;
 font-weight: 500;
 color: #d46b5a;
 font-size: 1.5rem;
+
+
+
 }
 
 
 .elm
 {
     font-size: 2rem;
- 
+  
+
    
 }
 .tit{
   font-size: 4.5rem;
+  
   
 } 
 body
@@ -93,7 +98,7 @@ ul.nav li a svg {
 }
 
 
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 800px) {
   
 body
 {
@@ -105,7 +110,7 @@ font-weight: 600;
   }
   .elm
   {
-     font-size: 2rem;
+     font-size: 1.8rem;
      
   }
   .btn1
@@ -133,20 +138,67 @@ font-weight: 600;
     font-weight: 400;
   }
  
-  
-
-
 }
+/* \\\\\\\\\\\\\\\ */
+
+
+
+@media  screen and (max-width: 720px) {
+  
+body
+{
+font-weight: 600;
+}
+  .tit {
+    font-size: 3.2rem;
+   
+  }
+  .elm
+  {
+     font-size: 1.6rem;
+     margin: 0.7rem;
+     
+  }
+  .btn1
+  {
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+        padding-right: 0.5rem;
+
+  }
+  .tt1{
+    font-size: 1.1rem;
+
+  }
+  .tt8{
+  font-size:  2.3rem;
+  font-weight: 600;
+  }
+  .tt3{
+    font-size: 1rem;
+
+  }
+  
+  .wn{
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+ 
+}
+
+/* \\\\\\\\\\\\\\\ */
+
 @media  screen and (max-width: 414px) {
   
 
   .tit {
-    font-size: 3rem;
+    font-size: 2.8rem;
 
   }
   .elm
   {
-     font-size: 1.5rem;
+     font-size: 1.2rem;
+     margin: 0.8rem;
      
   }
   .btn1
